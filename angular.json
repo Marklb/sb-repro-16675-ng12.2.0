@@ -109,6 +109,7 @@
           "options": {
             "browserTarget": "example-current:build",
             "compodoc": false,
+            "tsConfig": ".storybook/tsconfig.json",
             "port": 4400
           }
         },
