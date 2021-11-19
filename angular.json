@@ -110,6 +110,10 @@
             "browserTarget": "example-current:build",
             "compodoc": false,
             "tsConfig": ".storybook/tsconfig.json",
+            "styles": [
+              "src/styles.scss",
+              "node_modules/bootstrap/scss/bootstrap.scss"
+            ],
             "port": 4400
           }
         },
