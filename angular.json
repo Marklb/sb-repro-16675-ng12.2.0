@@ -160,9 +160,10 @@
           "options": {
             "browserTarget": "foo:build",
             "compodoc": false,
-            "tsConfig": ".storybook/tsconfig.json",
+            "tsConfig": "projects/foo/.storybook/tsconfig.json",
+            "configDir": "projects/foo/.storybook",
             "styles": [
-              "src/styles.scss",
+              "projects/foo/src/styles.scss",
               "node_modules/bootstrap/scss/bootstrap.scss"
             ],
             "port": 4400
